@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casamento Thiago & Bruna</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ══ HERO ══════════════════════════════════════════════ -->
+  <section id="hero">
+    <!-- <div class="hero-ampersand">&amp;</div> -->
+    <p class="hero-ornament fade-in">Com amor, convidamos você</p>
+    <h1 class="hero-names fade-in">
+      Thiago
+      <span class="and">&amp;</span>
+      Bruna
+    </h1>
+    <div class="hero-line fade-in"></div>
+    <p class="hero-date fade-in">10 · Abril · 2027</p>
+
+    <div class="countdown fade-in" id="countdown">
+      <div class="countdown-item">
+        <span class="countdown-num" id="cd-days">000</span>
+        <span class="countdown-label">Dias</span>
+      </div>
+      <span class="countdown-sep">·</span>
+      <div class="countdown-item">
+        <span class="countdown-num" id="cd-hours">00</span>
+        <span class="countdown-label">Horas</span>
+      </div>
+      <span class="countdown-sep">·</span>
+      <div class="countdown-item">
+        <span class="countdown-num" id="cd-mins">00</span>
+        <span class="countdown-label">Minutos</span>
+      </div>
+      <span class="countdown-sep">·</span>
+      <div class="countdown-item">
+        <span class="countdown-num" id="cd-secs">00</span>
+        <span class="countdown-label">Segundos</span>
+      </div>
+    </div>
+
+    <a href="#historia" class="btn-hero fade-in">Quero Saber Mais</a>
+    <!-- Divider Decorativo na interseção -->
+    <div class="hero-divider visible" id="hero-divider">
+      <span class="divider-emoji">✧</span>
+    </div>
+  </section>
+
+  <!-- ══ NOSSA HISTÓRIA ══════════════════════════════════════ -->
+  <section id="historia" class="fade-in">
+    <div class="historia-container">
+      <!-- Moldura Decorativa -->
+      <div class="frame-corner top-left"></div>
+      <div class="frame-corner top-right"></div>
+      <div class="frame-corner bottom-left"></div>
+      <div class="frame-corner bottom-right"></div>
+
+      <span class="section-label">Capítulo I</span>
+      <h2 class="section-title">Nossa História</h2>
+      <div class="divider"><span>✦</span></div>
+
+      <div class="historia-text">
+        <span class="quote">Algumas histórias começam com um olhar. A nossa começou assim:</span>
+        Thiago e Bruna se encontraram da forma mais simples e inesperada - e desde então não imaginam mais um caminho
+        sem
+        o outro. Entre conversas que viram madrugada, aventuras que viram memórias e uma cumplicidade que só cresce,
+        chegou a hora de celebrar esse amor diante de quem mais ama cada um deles.
+        <br /><br />
+        Cada capítulo vivido juntos nos trouxe até aqui. E esse é só o começo da melhor parte da história.
+      </div>
+
+    </div>
+    <!-- Divider Decorativo na interseção -->
+    <div class="hero-divider visible" id="hero-divider">
+      <span class="divider-emoji">✧</span>
+    </div>
+  </section>
+
+  <!-- ══ O GRANDE DIA ════════════════════════════════════════ -->
+  <section id="grande-dia" class="fade-in">
+    <span class="section-label">Capítulo II</span>
+    <h2 class="section-title">O Grande Dia</h2>
+    <div class="divider"><span>✦</span></div>
+
+    <div class="cards-grid">
+      <div class="card fade-in">
+        <div class="card-icon">📅</div>
+        <p class="card-label">Data</p>
+        <p class="card-value">10 de Abril<br />de 2027</p>
+        <p class="card-sub">Sábado</p>
+      </div>
+      <div class="card fade-in">
+        <div class="card-icon">🕖</div>
+        <p class="card-label">Horário</p>
+        <p class="card-value">18h00</p>
+        <!-- <p class="card-sub">Cerimônia às 18h00<br />Recepção às 20h</p> -->
+      </div>
+      <div class="card fade-in">
+        <div class="card-icon">📍</div>
+        <p class="card-label">Local</p>
+        <p class="card-value">Restaurante<br />Di Roma</p>
+        <p class="card-sub">Rua Onze de Junho, 189<br />Itajaí – SC</p>
+      </div>
+      <div class="card fade-in">
+        <div class="card-icon">👗</div>
+        <p class="card-label">Dress Code</p>
+        <p class="card-value">Traje Social</p>
+        <p class="card-sub">Convidamos você a evitar<br />vestidos brancos</p>
+      </div>
+    </div>
+    <!-- 
+    <br id="preencherForm">
+    <h2 class="section-title">Confirme sua Presença</h2>
+    <div class="divider"><span>✦</span></div>
+    <p class="section-sub">Preencha o formulário abaixo com carinho. Gostaríamos de receber sua
+      confirmação até
+      <strong>10 de fevereiro de 2027</strong>.
+    </p>
+
+    <form class="rsvp-form" id="rsvpForm">
+      <div class="form-row two">
+        <div class="form-group">
+          <label for="nome">Nome Completo *</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail *</label>
+          <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+        </div>
+      </div>
+
+      <div class="form-row two">
+        <div class="form-group">
+          <label for="acompanhantes">Número de Acompanhantes</label>
+          <select id="acompanhantes" name="acompanhantes">
+            <option value="1">Somente eu</option>
+            <option value="2">Eu + 1 Acompanhante</option>
+            <option value="3">Eu + 2 Acompanhantes</option>
+            <option value="4">Eu + 3 Acompanhantes</option>
+            <option value="5">Eu + 4 Acompanhantes</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="restricao">Restrição Alimentar</label>
+          <input type="text" id="restricao" name="restricao" placeholder="Opcional" />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="mensagem">Mensagem para os Noivos</label>
+        <textarea id="mensagem" name="mensagem"
+          placeholder="Deixe um recado especial para Thiago e Bruna… (opcional)"></textarea>
+      </div>
+
+      <button type="submit" class="btn-rsvp">Confirmar com Carinho 🤍</button>
+    </form>
+ -->
+    <!-- Divider Decorativo na interseção -->
+    <div class="hero-divider visible" id="hero-divider">
+      <span class="divider-emoji">✧</span>
+    </div>
+  </section>
+
+  <!-- ══ RSVP ════════════════════════════════════════════════
+  <section id="rsvp" class="fade-in">
+
+  </section> -->
+
+  <!-- ══ CONTRIBUIÇÕES ═══════════════════════════════════════ -->
+  <section id="contribuicoes" class="fade-in">
+    <span class="section-label">Capítulo III</span>
+    <h2 class="section-title">Queridos amigos e familiares</h2>
+    <div class="divider"><span>✦</span></div>
+    <p class="section-sub">Como muitos de vocês sabem, nossa casinha já está montada e cheia de amor. Por
+      isso, optamos por não fazer uma lista de presentes tradicional. Se desejarem nos abençoar com um presente,
+      criamos uma lista virtual aqui onde vocês podem contribuir para esse momento mais do que especial e com a nossa
+      lua de mel. Mas não esqueçam, o maior presente será a presença de vocês!</p>
+
+    <br>
+    <div class="divider"><span>✦</span></div>
+    <h3 class="section-title">Deslize para ver mais cards!</h3>
+
+    <div class="carousel-wrapper">
+
+      <div class="carousel-container">
+        <div class="carousel-cards" id="carouselTrack">
+          <!-- Injetado dinamicamente via JS -->
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <button class="carousel-control prev" id="carouselPrevBtn" aria-label="Anterior">&lsaquo;</button>
+        <button class="carousel-control next" id="carouselNextBtn" aria-label="Próximo">&rsaquo;</button>
+      </div>
+    </div>
+
+    <!-- Divider Decorativo na interseção -->
+    <div class="hero-divider visible" id="hero-divider">
+      <span class="divider-emoji">✧</span>
+    </div>
+  </section>
+
+  <!-- ══ GALERIA ═════════════════════════════════════════════ -->
+  <section id="galeria" class="fade-in">
+    <span class="section-label">Capítulo IV</span>
+    <h2 class="section-title">Quero Presentear Outro Valor</h2>
+    <div class="divider"><span>✦</span></div>
+
+    <div class="pix-gift-section">
+      <p class="pix-gift-text">
+        Se você deseja nos presentear, mas prefere não escolher um valor específico entre as cotas,
+        fique à vontade para fazer um PIX de qualquer valor. Sua contribuição será muito bem-vinda
+        e fará toda a diferença para começarmos esta nova jornada juntos! 🤍
+      </p>
+
+      <div class="pix-gift-card">
+        <div class="pix-gift-qr-wrapper">
+          <img
+            src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&margin=10&data=https://link.mercadopago.com.br/schulzpay"
+            alt="QR Code PIX" class="pix-gift-qr-img" onerror="this.style.display='none'" />
+        </div>
+        <div class="pix-gift-divider"><span>ou</span></div>
+        <div class="pix-gift-key-area">
+          <p class="pix-gift-key-label">Para Thiago Moreira Schulz</p>
+          <div class="pix-gift-key-row" data-pix-key="b4009ba6-28cb-40cb-9d24-c675ca837f4c">
+            <button class="btn-copy-pix-gift" onclick="copyPixKey(this)" data-feedback="pixGiftFeedback">Copiar Chave
+              PIX</button>
+          </div>
+          <p class="copy-feedback" id="pixGiftFeedback"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()">×</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="Foto do casal" />
+  </div>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════ -->
+  <footer>
+    <p class="footer-quote">"E assim começa o resto das nossas vidas - do jeito mais bonito que poderíamos imaginar."
+    </p>
+    <p class="footer-names">Thiago &amp; Bruna</p>
+    <p class="footer-date">10 · Abril · 2027</p>
+  </footer>
+
+  <!-- Modal de Alerta Customizado -->
+  <div class="custom-alert-overlay" id="customAlert" onclick="closeCustomAlert()">
+    <div class="custom-alert-box" onclick="event.stopPropagation()">
+      <div class="custom-alert-icon">⚠️</div>
+      <h3 class="custom-alert-title serif">Aviso</h3>
+      <p class="custom-alert-message" id="customAlertMessage">Este e-mail já está confirmado.</p>
+      <button class="btn-rsvp" onclick="closeCustomAlert()">Entendido</button>
+    </div>
+  </div>
+
+  <!-- Modal de Confirmação de Presença -->
+  <div class="custom-alert-overlay" id="confirmModal" onclick="closeConfirmModal()">
+    <div class="custom-alert-box" onclick="event.stopPropagation()">
+      <div class="custom-alert-icon">✉️</div>
+      <h3 class="custom-alert-title serif">Confirmar Presença?</h3>
+      <p class="custom-alert-message">Você deseja confirmar sua presença com os dados preenchidos?</p>
+      <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+        <button class="btn-rsvp" id="btnConfirmYes" style="background: var(--marsala-main); padding: 12px 24px;">Sim,
+          Confirmar</button>
+        <button class="btn-rsvp confirm-btn-secondary" id="btnConfirmNo" onclick="closeConfirmModal()"
+          style="padding: 12px 24px;">Revisar Dados</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Confirmação de Presença de Sucesso (Pop-up) -->
+  <div class="custom-alert-overlay" id="rsvp" onclick="closeRsvpModal()">
+    <div class="custom-alert-box" onclick="event.stopPropagation()">
+      <div class="custom-alert-icon">💛</div>
+      <h3 class="custom-alert-title serif">Presença Confirmada!</h3>
+      <p class="custom-alert-message">Que alegria! Mal podemos esperar para ter você com a gente nesse dia tão especial.
+      </p>
+      <button class="btn-rsvp" onclick="closeRsvpModal()">Entendido</button>
+    </div>
+  </div>
+
+  <!-- Tela de Envio Animado (Envelope) -->
+  <div class="sending-overlay" id="sendingOverlay">
+    <div class="envelope-container">
+      <div class="envelope-back"></div>
+      <div class="envelope-paper">
+        <span>💛</span>
+      </div>
+      <div class="envelope-front"></div>
+      <div class="envelope-flap"></div>
+    </div>
+    <p class="sending-text">Enviando seu convite com carinho...</p>
+  </div>
+
+  <!-- ══ SCRIPTS ═════════════════════════════════════════════ -->
+  <script src="script.js" defer></script>
+</body>
+
+</html>
