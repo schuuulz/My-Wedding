@@ -10,7 +10,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
@@ -70,10 +70,16 @@
       <div class="divider"><span>✦</span></div>
 
       <div class="historia-text">
+        <span class="quote">Algumas histórias começam com um olhar. A nossa começou assim:</span>
+        Thiago e Bruna se encontraram da forma mais simples e inesperada - e desde então não imaginam mais um caminho
+        sem
+        o outro. Entre conversas que viram madrugada, aventuras que viram memórias e uma cumplicidade que só cresce,
+        chegou a hora de celebrar esse amor diante de quem mais ama cada um deles.
         <span class="quote">Nossa história começou em 2017, quando a Bruna tinha 13 anos e o Thiago, 14. Os dois moravam
           no mesmo prédio e, sem saber muito bem o que estava acontecendo, começaram a se notar.</span>
         Talvez tenha sido amor à primeira vista. Ou melhor: amor sem consciência à primeira vista.
         <br /><br />
+        Cada capítulo vivido juntos nos trouxe até aqui. E esse é só o começo da melhor parte da história.
         Naquele tempo, a Bruna achava o Thiago interessante. O Thiago, por sua vez, achava a Bruna faladeira demais, uma
         verdadeira pipoca pulante. Mas, pouco a pouco, aquilo que parecia estranheza foi virando convivência, afinidade
         e, com o tempo, uma amizade muito significativa.
@@ -141,14 +147,19 @@
       <div class="card fade-in">
         <div class="card-icon">🕖</div>
         <p class="card-label">Horário</p>
+        <!-- <p class="card-sub">Cerimônia às 18h00<br />Recepção às 20h</p> -->
         <p class="card-value">19h00</p>
         <p class="card-sub">Cerimônia às 19h00<br /></p>
       </div>
       <div class="card fade-in">
         <div class="card-icon">📍</div>
         <p class="card-label">Local</p>
-        <p class="card-value">Restaurante<br />Di Roma</p>
-        <p class="card-sub">Rua Onze de Junho, 189<br />Itajaí – SC</p>
+        <p class="card-value">Cantina Família<br />Frassini</p>
+        <p class="card-sub">Av. Min. Victor Konder, 310 – Fazenda<br />Itajaí – SC, 88301-700</p>
+        <div class="map-buttons">
+          <a href="https://maps.app.goo.gl/TGuSteE5vvkpGVNg7" target="_blank" rel="noopener" class="btn-map">Google Maps</a>
+          <a href="https://waze.com/ul?q=Av.%20Min.%20Victor%20Konder%2C%20310%20-%20Fazenda%2C%20Itaja%C3%AD%20-%20SC%2C%2088301-700&navigate=yes" target="_blank" rel="noopener" class="btn-map">Waze</a>
+        </div>
       </div>
       <div class="card fade-in">
         <div class="card-icon">👗</div>
@@ -158,52 +169,52 @@
       </div>
     </div>
     <!-- 
-    <br id="preencherForm">
-    <h2 class="section-title">Confirme sua Presença</h2>
-    <div class="divider"><span>✦</span></div>
-    <p class="section-sub">Preencha o formulário abaixo com carinho. Gostaríamos de receber sua
-      confirmação até
-      <strong>10 de fevereiro de 2027</strong>.
-    </p>
+   <br id="preencherForm">
+   <h2 class="section-title">Confirme sua Presença</h2>
+   <div class="divider"><span>✦</span></div>
+   <p class="section-sub">Preencha o formulário abaixo com carinho. Gostaríamos de receber sua
+     confirmação até
+     <strong>10 de fevereiro de 2027</strong>.
+   </p>
 
-    <form class="rsvp-form" id="rsvpForm">
-      <div class="form-row two">
-        <div class="form-group">
-          <label for="nome">Nome Completo *</label>
-          <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
-        </div>
-        <div class="form-group">
-          <label for="email">E-mail *</label>
-          <input type="email" id="email" name="email" placeholder="seu@email.com" required />
-        </div>
-      </div>
+   <form class="rsvp-form" id="rsvpForm">
+     <div class="form-row two">
+       <div class="form-group">
+         <label for="nome">Nome Completo *</label>
+         <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+       </div>
+       <div class="form-group">
+         <label for="email">E-mail *</label>
+         <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+       </div>
+     </div>
 
-      <div class="form-row two">
-        <div class="form-group">
-          <label for="acompanhantes">Número de Acompanhantes</label>
-          <select id="acompanhantes" name="acompanhantes">
-            <option value="1">Somente eu</option>
-            <option value="2">Eu + 1 Acompanhante</option>
-            <option value="3">Eu + 2 Acompanhantes</option>
-            <option value="4">Eu + 3 Acompanhantes</option>
-            <option value="5">Eu + 4 Acompanhantes</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="restricao">Restrição Alimentar</label>
-          <input type="text" id="restricao" name="restricao" placeholder="Opcional" />
-        </div>
-      </div>
+     <div class="form-row two">
+       <div class="form-group">
+         <label for="acompanhantes">Número de Acompanhantes</label>
+         <select id="acompanhantes" name="acompanhantes">
+           <option value="1">Somente eu</option>
+           <option value="2">Eu + 1 Acompanhante</option>
+           <option value="3">Eu + 2 Acompanhantes</option>
+           <option value="4">Eu + 3 Acompanhantes</option>
+           <option value="5">Eu + 4 Acompanhantes</option>
+         </select>
+       </div>
+       <div class="form-group">
+         <label for="restricao">Restrição Alimentar</label>
+         <input type="text" id="restricao" name="restricao" placeholder="Opcional" />
+       </div>
+     </div>
 
-      <div class="form-group">
-        <label for="mensagem">Mensagem para os Noivos</label>
-        <textarea id="mensagem" name="mensagem"
-          placeholder="Deixe um recado especial para Thiago e Bruna… (opcional)"></textarea>
-      </div>
+     <div class="form-group">
+       <label for="mensagem">Mensagem para os Noivos</label>
+       <textarea id="mensagem" name="mensagem"
+         placeholder="Deixe um recado especial para Thiago e Bruna… (opcional)"></textarea>
+     </div>
 
-      <button type="submit" class="btn-rsvp">Confirmar com Carinho 🤍</button>
-    </form>
- -->
+     <button type="submit" class="btn-rsvp">Confirmar com Carinho 🤍</button>
+   </form>
+-->
     <!-- Divider Decorativo na interseção -->
     <div class="hero-divider visible" id="hero-divider">
       <span class="divider-emoji">✧</span>
@@ -211,9 +222,9 @@
   </section>
 
   <!-- ══ RSVP ════════════════════════════════════════════════
-  <section id="rsvp" class="fade-in">
+ <section id="rsvp" class="fade-in">
 
-  </section> -->
+ </section> -->
 
   <!-- ══ CONTRIBUIÇÕES ═══════════════════════════════════════ -->
   <section id="contribuicoes" class="fade-in">
@@ -289,6 +300,7 @@
 
   <!-- ══ FOOTER ══════════════════════════════════════════════ -->
   <footer>
+    <p class="footer-quote">"E assim começa o resto das nossas vidas - do jeito mais bonito que poderíamos imaginar."
     <p class="footer-quote">Com você, eu não tenho medo de viver.
     </p>
     <p class="footer-names">Thiago &amp; Bruna</p>
@@ -347,5 +359,3 @@
   <!-- ══ SCRIPTS ═════════════════════════════════════════════ -->
   <script src="script.js" defer></script>
 </body>
-
-</html>
